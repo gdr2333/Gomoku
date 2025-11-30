@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Server/Server.csproj" Id="49a2fbce-a778-4933-b3a1-455b51079019" />
+  <Project Path="Gomoku/Gomoku.csproj" Id="8bcd7873-d127-4b81-8fa5-c85c83d53089" />
+</Solution>
