@@ -22,6 +22,13 @@ namespace Gomoku
         {
             var gw = new GameWindow(serverAddr);
             gw.Show();
+            StartButton.IsEnabled = false;
+            gw.Closed += Gw_Closed;
+        }
+
+        private void Gw_Closed(object sender, EventArgs e)
+        {
+            StartButton.IsEnabled = true;
         }
 
         private async void WaitForServerAddr()
